@@ -1,0 +1,7 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  m26:
+    runs-on: macos-26
+    steps:
+      - run: echo hello-macos26
